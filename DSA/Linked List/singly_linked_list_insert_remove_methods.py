@@ -40,7 +40,7 @@ class singly_linked_list:
 
         if node is not None:
             if node.data == data and node.next == None:
-                print("Only one element in the linked list and it is removed")
+                print("Only one element in the linked list_comprehensions and it is removed")
                 self.head = None
                 return
 
@@ -62,7 +62,7 @@ class singly_linked_list:
 
     def display(self):
         if self.head == None:
-            print("Linked list is empty...")
+            print("Linked list_comprehensions is empty...")
         else:
             while self.head is not None:
                 print(self.head.data)

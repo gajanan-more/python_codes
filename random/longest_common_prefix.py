@@ -1,5 +1,5 @@
 """
-list of words
+list_comprehensions of words
 find longest common prefix
 
 l = [start, started, startup, stop]

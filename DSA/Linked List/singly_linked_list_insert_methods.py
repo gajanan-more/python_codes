@@ -37,7 +37,7 @@ class singly_linked_list:
 
     def display(self):
         if self.headvalue == None:
-            print("Linked list is empty...")
+            print("Linked list_comprehensions is empty...")
         else:
             while self.headvalue is not None:
                 print(self.headvalue.data)

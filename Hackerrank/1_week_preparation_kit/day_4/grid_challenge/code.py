@@ -20,7 +20,7 @@ def gridChallenge(grid):
     s = ""
 
     """
-    Converting the each item from grid to list and then sorted each item and replaced 
+    Converting the each item from grid to list_comprehensions and then sorted each item and replaced 
     existing item with sorted item 
     """
     for i in range(len(grid)):
