@@ -26,7 +26,7 @@ class stack:
 
 obj = stack()
 
-x = int(input("Select your choice: \n 1. Push \n 2. Pop \n 3. Print Stack \n 4. Print and Exit \n "))
+x = int(input("Select your choice: \n 1. Push \n 2. Pop \n 3. Print 2.stack \n 4. Print and Exit \n "))
 
 while x:
     if x == 1:
@@ -44,6 +44,6 @@ while x:
 
     else:
         int(input(
-            "Select correct choice from following:  \n 1. Push \n 2. Pop \n 3. Print Stack \n 4. Print and Exit \n "))
+            "Select correct choice from following:  \n 1. Push \n 2. Pop \n 3. Print 2.stack \n 4. Print and Exit \n "))
 
-    x = int(input("Select your choice: \n 1. Push \n 2. Pop \n 3. Print Stack \n 4. Print and Exit \n "))
+    x = int(input("Select your choice: \n 1. Push \n 2. Pop \n 3. Print 2.stack \n 4. Print and Exit \n "))

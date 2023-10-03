@@ -26,7 +26,7 @@ class queue:
 
 obj = queue()
 
-x = int(input("Select your choice: \n 1. Enqueue \n 2. Dequque \n 3. Print Queue \n 4. Print and Exit \n "))
+x = int(input("Select your choice: \n 1. Enqueue \n 2. Dequque \n 3. Print 1.queue \n 4. Print and Exit \n "))
 
 while x:
     if x == 1:
@@ -44,6 +44,6 @@ while x:
 
     else:
         int(input(
-            "Select correct choice from following:  \n 1. Enqueue \n 2. Dequque \n 3. Print Queue \n 4. Print and Exit \n "))
+            "Select correct choice from following:  \n 1. Enqueue \n 2. Dequque \n 3. Print 1.queue \n 4. Print and Exit \n "))
 
-    x = int(input("Select your choice: \n 1. Enqueue \n 2. Dequque \n 3. Print Queue \n 4. Print and Exit \n "))
+    x = int(input("Select your choice: \n 1. Enqueue \n 2. Dequque \n 3. Print 1.queue \n 4. Print and Exit \n "))
