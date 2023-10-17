@@ -1,0 +1,29 @@
+
+"networks": {
+        "v44": {
+            "vlan_id": "44"
+        },
+        "v33": {
+            "vlan_id": "33"
+        }
+    },
+"ospf_areas": {
+        "33": {
+            "type": "nssa",
+            "networks": {
+                "v33": {
+                    "interface_type": "nbma",
+                    "passive": false
+                }
+            }
+        },
+        "44": {
+            "type": "stub",
+            "networks": {
+                "v44": {
+                    "interface_type": "p2mp",
+                    "passive": false
+                }
+            }
+        }
+    }}

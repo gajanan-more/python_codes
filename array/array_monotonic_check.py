@@ -4,7 +4,7 @@ An array is monotonic if it is either monotone increasing or monotone decreasing
 An array A is monotone increasing if for all i <= j, A[i] <= A[j].
 """
 
-l1 = [2,3,47,6]
+l1 = [2,3,4,6]
 
 l2,l3 = [], []
 
